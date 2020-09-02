@@ -1,0 +1,115 @@
+/* Tag Selector */
+body {
+  background-color: hsl(0, 0%, 98%);
+  font-size: 15px;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+
+header {
+  padding: 30px 15px 40px 15px;
+}
+
+p {
+  color: hsl(229, 6%, 66%);
+}
+
+div {
+  display: block;
+}
+
+h5 {
+  font-weight: 600;
+}
+
+/* Class Selector */
+.thin-header {
+  font-weight: 200;
+  color: gray;
+}
+
+.bold-header {
+  font-weight: 600;
+}
+
+.first-p {
+  width: 40%;
+  margin: 2px auto 2px auto;
+  line-height: 2;
+}
+
+.container {
+  width: 100%;
+  padding-left: 50px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container ::after, ::before {
+  box-sizing: border-box;
+}
+
+.card-body {
+  background-color: white;
+  text-align: left;
+}
+
+.card-cyan {
+  border-top: solid 4px hsl(180, 62%, 55%);
+}
+
+.card-red {
+  border-top: solid 4px hsl(0, 78%, 62%);
+}
+
+.card-orange {
+  border-top: solid 4px hsl(34, 97%, 64%);
+}
+
+.card-blue {
+  border-top: solid 4px hsl(212, 86%, 64%);
+}
+
+.card-p {
+  margin-bottom: 30px;
+}
+
+.card-img {
+  height: 50px;
+  width: 50px;
+  margin-left: 13rem;
+}
+
+.space {
+  margin-bottom: auto;
+  margin-top: auto;
+}
+
+.shadow {
+  width: 300px;
+  height: 200px;
+  border-radius: 5px;
+  box-shadow: 0 .5rem 1rem #dbd8d8;
+  margin-bottom: 2rem;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 1028px) {
+  .first-p {
+    width: 70%;
+  }
+
+  .container {
+    padding-left: 80px;
+  }
+}
